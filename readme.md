@@ -16,7 +16,7 @@ C++ in 14ms - 17
 ## PHP
 ##### PHP 7.3.3 (cli) (built: Mar  6 2019 18:03:57) ( NTS )
 Result:
-PHP in 35.09ms - 17
+PHP in 35ms - 17
 
 ## Python3.7
 Result:
