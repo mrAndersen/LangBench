@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "-lssl -lcrypto")
 set(CMAKE_C_FLAGS "-lssl -lcrypto")
 
-add_executable(generate generate.cpp c++/gen.cpp)
+add_executable(generate c/gen.c)
