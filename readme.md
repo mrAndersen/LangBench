@@ -26,7 +26,7 @@ Result: PHP in 35ms - 17
 ## NodeJS
 v11.13.0
 
-Result NodeJS in 34ms - 17
+Result: NodeJS in 34ms - 17
 
 ## Python3.7
 
