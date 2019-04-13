@@ -7,7 +7,7 @@ gcc -O3 -march=native -o gen gen.c
 
 Result: C in 3ms - 17
 
-##GO
+## GO
 go version go1.12.1 linux/amd64
 
 Result: GO in 7ms - 17
