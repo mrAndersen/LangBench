@@ -5,7 +5,10 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Stream;
 
 public class Main {
 
@@ -31,17 +34,12 @@ public class Main {
             }
         }
 
+        var stream = strings.stream();
 
         long start = System.currentTimeMillis();
-        int j = 0;
-
-        for (int i = 0; i < strings.size(); i++) {
-            if (strings.get(i).contains("abcde")) {
-                j++;
-            }
-        }
-
+        var j = stream.filter(s -> s.contains("abcde")).count();
         long end = System.currentTimeMillis() - start;
+
         System.out.printf("Java in %dms - %d", end, j);
     }
 }
