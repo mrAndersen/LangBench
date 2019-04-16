@@ -10,4 +10,4 @@ for string in strings:
         i += 1
 
 end = int(round(time.time() * 1000)) - start
-print("Python in {}ms - {}\n".format(end, i))
+print("Python in {}ms - {}".format(end, i))
