@@ -36,3 +36,7 @@ Result: NodeJS in 34ms - 17
 ## Python3.7
 
 Result: Python in 101ms - 17
+
+## LuaJIT 2.0.5
+
+Result: LuaJIT in 47ms - 17
