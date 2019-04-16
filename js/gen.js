@@ -16,4 +16,4 @@ for (let i = 0; i < array.length; i++) {
 }
 
 end = (new Date().getTime()) - start;
-console.log(util.format("NodeJS in %sms - %s\n", end, j));
+console.log(util.format("NodeJS in %sms - %s", end, j));

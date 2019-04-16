@@ -26,5 +26,5 @@ func main() {
 	}
 
 	elapsed := (time.Now().UnixNano() - start) / 1000000
-	fmt.Printf("GO in %dms - %d\n", elapsed, j)
+	fmt.Printf("Go in %dms - %d\n", elapsed, j)
 }

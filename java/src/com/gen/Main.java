@@ -40,6 +40,6 @@ public class Main {
         var j = stream.filter(s -> s.contains("abcde")).count();
         long end = System.currentTimeMillis() - start;
 
-        System.out.printf("Java in %dms - %d", end, j);
+        System.out.printf("Java in %dms - %d\n", end, j);
     }
 }

@@ -13,4 +13,4 @@ foreach($data as $v){
     }
 }
 
-echo(sprintf("PHP in %.2fms - %d\n",(microtime(true) - $start)*1000,$i));
+echo(sprintf("PHP in %dms - %d\n",(microtime(true) - $start)*1000,$i));
