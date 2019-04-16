@@ -24,7 +24,7 @@ std::string random_string() {
 }
 
 int main(int argc, char *argv[]) {
-    int max = 1000000000;
+    int max = 1000000;
 
     std::ofstream file;
     file.open("set.txt");
