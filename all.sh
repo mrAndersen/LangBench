@@ -13,3 +13,5 @@ cd php && php gen.php && cd ..
 cd js && node gen.js && cd ..
 
 cd python && python3.7 gen.py && cd ..
+
+cd lua && luajit gen.lua && cd ..
